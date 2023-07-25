@@ -7,9 +7,9 @@ const App = () => {
  
   return (
     <div className="App">
-      <button onClick={() => setCounter((prevCount) => prevCount -1)}> - </button>
+      <button type="button" class="btn btn-success d-grid gap-2 col-2 mx-auto" onClick={() => setCounter((prevCount) => prevCount -1)}> - </button>
       <h1> { counter } </h1>
-      <button onClick={() => setCounter((prevCount) => prevCount +1)}> + </button>
+      <button type="button" class="btn btn-success d-grid gap-2 col-2 mx-auto" onClick={() => setCounter((prevCount) => prevCount +1)}> + </button>
     </div>
   );
 }
